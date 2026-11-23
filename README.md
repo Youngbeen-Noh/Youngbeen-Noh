@@ -9,7 +9,7 @@
 
 ## Research
 
-- **포즈 임베딩 기반 운동선수 식별 연구** (학위논문) · [code](https://github.com/Youngbeen-Noh/golf-swing-phase-reid)
+- **포즈 시계열의 구간 임베딩 학습 방법 및 개인 식별을 통한 유효성 검증** (석사 학위논문, 본심사 예정) · [code](https://github.com/Youngbeen-Noh/golf-swing-phase-reid)
   프로 골퍼 25명·영상 450개로 인코더·좌표 정규화·구간 구성 45개 조합을 통제 비교, 보류 테스트 Top-1 91.5%
 - **A Spatial-Temporal Normalized Contrastive Embedding for Robust Motion Similarity Retrieval**
   S.-S. Lee, **Y.-B. Noh**, H. Y. Jeong, K.-I. Hwang — *Computers, Materials & Continua* 88(3), 2026 · [DOI](https://doi.org/10.32604/cmc.2026.081251)
