@@ -9,8 +9,7 @@
 
 ## Research
 
-- **Learning Professional Golf Swing Signatures from Monocular 2D Pose: A Controlled Study of Coordinate Normalization and Phase Decomposition**
-  **Y.-B. Noh**, J.-E. Byun, K.-I. Hwang — *Sensors* (투고 중) · [code](https://github.com/Youngbeen-Noh/golf-swing-phase-reid)
+- **포즈 임베딩 기반 운동선수 식별 연구** (학위논문) · [code](https://github.com/Youngbeen-Noh/golf-swing-phase-reid)
   프로 골퍼 25명·영상 450개로 인코더·좌표 정규화·구간 구성 45개 조합을 통제 비교, 보류 테스트 Top-1 91.5%
 - **A Spatial-Temporal Normalized Contrastive Embedding for Robust Motion Similarity Retrieval**
   S.-S. Lee, **Y.-B. Noh**, H. Y. Jeong, K.-I. Hwang — *Computers, Materials & Continua* 88(3), 2026 · [DOI](https://doi.org/10.32604/cmc.2026.081251)
@@ -22,7 +21,7 @@
 | 프로젝트 | 역할 | 내용 |
 |---|---|---|
 | **MoVine** — AI 양궁 퍼포먼스 플랫폼 ([서비스](https://ar2.tempodiall.com)) | V1 단독 개발 · V2 Backend | 엔드 영상을 화살 단위로 자동 분할해 자세·리듬을 분석. FastAPI · PostgreSQL · AWS(ECS·SQS·RDS·S3) 비동기 분석 파이프라인 |
-| **KM** — AI 골프 스윙 분석 | 4인 팀 | MediaPipe 기반 스윙 분석, 측면+정면 듀얼 뷰를 촬영부터 재생 UI까지 구현 |
+| **KM** — AI 골프 스윙 분석 | 분석 서버·런치패드·API·웹 (4인 팀) | 측면+정면 듀얼 뷰를 타석 PC 촬영부터 정면 영상 분석, 동기 재생 UI까지 구현 |
 | **자율주행 AI 챌린지 2025** | 팀장 | 실시간 시맨틱 세그멘테이션, 연산량 제한 안에서 mIoU 42.22 → 50.97, 43팀 중 9위 |
 | [Luckthon](https://github.com/Youngbeen-Noh/Luckthon) | CV 서버·웹 연동 | YOLO11 인원 산출로 건물 평면도 위에 실시간 혼잡도 표시 |
 | [AI_project](https://github.com/Youngbeen-Noh/AI_project) | 개인 | 프레임워크 없이 CUDA C++로 MLP 순전파·역전파 직접 구현 |
